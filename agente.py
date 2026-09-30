@@ -12,7 +12,7 @@ class AgenteNexcell:
             api_key=os.getenv("GROQ_API_KEY"),
             base_url="https://api.groq.com/openai/v1"
         )
-        self.modelo = "llama-3.1-8b-instant"
+        self.modelo = "qwen/qwen3.8-27b"
         self.historial = []
         self._inicializar_contexto()
 
@@ -35,7 +35,8 @@ class AgenteNexcell:
             respuesta = self.cliente.chat.completions.create(
                 model=self.modelo,
                 messages=self.historial,
-                temperature=0.6
+                temperature=0.6,
+                max_tokens=300
             )
             
             mensaje_ia = respuesta.choices[0].message.content
