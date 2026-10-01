@@ -1,8 +1,0 @@
-2026-10-01 14:19:50,364 - INFO - === Iniciando Servidor API de Nexcell ===
-2026-10-01 14:22:04,736 - INFO - Usuario pregunta: Quiero saber que dispositivos samsung hay disponible?
-2026-10-01 14:22:06,574 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-10-01 14:22:06,586 - INFO - Bot responde: Contamos con varios dispositivos Samsung disponibles en stock. En cuanto a teléfonos inteligentes, tenemos el **Samsung Galaxy S25 Ultra** por $1.771.900 y el **Samsung Galaxy S26 Ultra** por $2.100.000.
-
-Además, disponemos de accesorios de la marca, específicamente el **Cargador Samsung 25W** por $18.000 y el **SmartWatch Samsung** por $8.500.
-
-Todos estos productos tienen un stock de 50 unidades disponibles. ¿Te gustaría más información sobre alguno de ellos?
